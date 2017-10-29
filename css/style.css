@@ -7,8 +7,7 @@
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
-    /*    Tylko w celusprawdzenia elektu - do usuniecia*/
-    background-color: bisque;
+
 }
 
 span {
@@ -62,7 +61,7 @@ span {
     background-position: center;
     position: relative;
     color: #fff;
-    font-family: 'Robotowo', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #main-header .header-caption {
@@ -88,5 +87,78 @@ span {
 
 }
 
-
 /*main header styles END*/
+
+#about {
+    margin-top: 0;
+    height: 100vh;
+    width: 100%;
+    color: black;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#about .about-caption {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    font-size: 3em;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1em;
+}
+
+#span2 {
+    padding-left: 10%;
+}
+
+#about .photo img {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    width: 20%;
+}
+
+#lrm {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 2.3em;
+}
+
+#skills {
+    margin-top: 0;
+    height: 100vh;
+    width: 100%;
+    color: black;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#skills .skills-caption {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 3em;
+    transform: translate(-50%, -50%);
+    font-size: 1em;
+    background-color: darkgrey;
+}
+
+
+#span3 {
+    padding-left: 1%;
+}
+
+#lrm2 {
+    width: 100%;
+    left: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
