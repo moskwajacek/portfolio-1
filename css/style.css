@@ -48,6 +48,11 @@ footer {
 
 }
 
+#main-menu label[for="drop-menu"],
+#main-menu #drop-menu {
+    display: none;
+}
+
 #main-menu ul {
     margin: 0;
     padding: 0;
@@ -195,6 +200,7 @@ footer {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    width: 100%;
 }
 
 #portfolio .portfolio-item-content a {
